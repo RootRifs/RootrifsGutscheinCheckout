@@ -1,0 +1,41 @@
+{
+    "name": "rootrifs/gutschein-checkout",
+    "description": "Gutscheincode in der Kasse",
+    "version": "v1.0.0",
+    "type": "shopware-platform-plugin",
+    "license": "proprietary",
+    "autoload": {
+        "psr-4": {
+            "Rootrifs\\GutscheinCheckout\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Robert Otto",
+            "homepage": "https://rootrifs.de/plugins/"
+        }
+    ],
+    "require": {
+        "shopware/core": ">=6.6.0.0"
+    },
+    "extra": {
+        "shopware-plugin-class": "Rootrifs\\GutscheinCheckout\\RootrifsGutscheinCheckout",
+        "plugin-icon": "src/Resources/config/plugin.png",
+        "label": {
+            "de-DE": "Gutscheincode Eingabe im letzten Bestellschritt.",
+            "en-GB": "Checkout Confirm Voucher Code Input"
+        },
+        "description": {
+            "de-DE": "Ermöglicht Kunden das Einlösen von Gutscheinen im letzten Bestellschritt.",
+            "en-GB": "Allows customers to redeem vouchers during the final checkout step."
+        },
+        "manufacturerLink": {
+            "de-DE": "https://rootrifs.de/plugins/",
+            "en-GB": "https://rootrifs.de/plugins/"
+        },
+        "supportLink": {
+            "de-DE": "https://rootrifs.de/kontakt/",
+            "en-GB": "https://rootrifs.de/kontakt"
+        }
+    }
+}
