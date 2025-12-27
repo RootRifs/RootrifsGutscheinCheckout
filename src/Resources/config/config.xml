@@ -3,13 +3,13 @@
         xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/shopware/platform/master/src/Core/System/SystemConfig/Schema/config.xsd">
 
     <card>
-        <title>Allgemeine Einstellungen</title>
-        <title xml:lang="en-GB">General settings</title>
+        <title>General settings</title>
+        <title lang="de-DE">Allgemeine Einstellungen</title>
 
         <input-field type="bool">
             <name>showPromotionInput</name>
-            <label>Gutscheinfeld im Checkout anzeigen</label>
-            <label xml:lang="en-GB">Show promotion input in checkout</label>
+            <label>Show promotion input in checkout</label>
+            <label lang="de-DE">Gutscheinfeld im Checkout anzeigen</label>
             <defaultValue>true</defaultValue>
         </input-field>
     </card>
